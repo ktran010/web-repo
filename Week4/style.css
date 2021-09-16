@@ -4,33 +4,52 @@
     /* font-size: 3em; */
     font-size: 15vh;
     font-weight:bold;
-  }
+      }
 
 #lastName{
-    color: blue;
-border-style: solid;
-border-color: green;
-border-width: medium;
-  }
+        color: blue;
+        border-style: solid;
+        border-color: green;
+        border-width: medium;
+      } */
 
-  body{
+ body{
     background-color: pink;
     border: dashed 5px black;
     border-radius: 30px 20px 5px 0px;
   }
 
-  /* p{
-    color: red;
-  } */
+img{
+        width: 20vh;
+        margin: 2em;
+        /* margin-top: 40px;
+        margin: 50px 30px 20px 10x; */
+      }
 
-  #paragraph{
-    font-family:cursive;
-  }
+/* p{
+        color: red;
+      } */
 
-  #paragraph #p{
-    color: green;
-  }
+/* #sample{
+        font-family:cursive;
+      }
 
-  /* p{
-    color:blue;
-  } */
+#sample p{
+        color: yellow;
+      } */
+
+/* #sample #special{
+        color: green;
+      } */
+
+/* p{
+        color: blue;
+      } */
+
+/* input[type=radio]:after{
+        background-color:red;
+      }
+
+input[type=radio]:checked:after{
+        background-color:yellow;
+      } */
