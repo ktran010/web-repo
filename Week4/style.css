@@ -1,0 +1,29 @@
+#last{
+    color: blue;
+    font-family:monospace;
+    /* font-size: 3em; */
+    font-size: 15vh;
+    font-weight:bold;
+  }
+
+  body{
+    background-color: pink;
+    border: dashed 5px black;
+    border-radius: 30px 20px 5px 0px;
+  }
+
+  /* p{
+    color: red;
+  } */
+
+  #paragraph{
+    font-family:cursive;
+  }
+
+  #paragraph #p{
+    color: green;
+  }
+
+  /* p{
+    color:blue;
+  } */
