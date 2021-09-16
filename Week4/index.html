@@ -4,13 +4,19 @@
     <meta charset="utf-8">
     <title>My CSS Styled Page</title>
 
-    <!-- <style>
-      #last{
+    <style>
+      /* #last{
         color: blue;
         font-family:monospace;
         font-size: 3em;
         font-weight:bold;
       }
+      #lastName{
+        color: blue;
+        border-style: solid;S
+        border-color: green;
+        border-width: medium;
+      } */
 
       body{
         background-color: pink;
@@ -20,21 +26,23 @@
         color: red;
       } */
 
-      #paragraph{
+      #sample{
         font-family:cursive;
       }
 
-      #paragraph #p{
+      #sample #special{
         color: green;
       }
 
       /* p{
-        color:blue;
+        color: blue;
       } */
-    </style> -->
 
-    <link rel="stylesheet" href="style.css">
+    </style>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
   </head>
+
   <body>
     <form>
       <label for="fname" style="color:red">First name:</label><br>
@@ -47,11 +55,15 @@
       <button id="submit">Submit</button>
     </form>
 
-    <p>First tester here</p>
+    <p style="color:blue">0th tester, inline styling</p>
 
-    <section id="paragraph">
-      <p id="p">Second Tester here</p>
-      <p>Third tester here</p>
+    <p>First tester here, I'm sitting outside of the section.</p>
+
+    <section id="sample">
+      <p>Second Tester here, I'm inside the section.</p>
+      <p>Third tester here, I'm inside the section.</p>
+      <p id="special">Fourth tester here, I'm inside the section and special!!! :)</p>
     </section>
+
   </body>
 </html>
