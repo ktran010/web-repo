@@ -11,7 +11,7 @@
         font-size: 3em;
         font-weight:bold;
       }
-      #lastName{
+      #lname{
         color: blue;
         border-style: solid;
         border-color: green;
@@ -27,6 +27,13 @@
         margin: 2em;
         /* margin-top: 40px;
         margin: 50px 30px 20px 10x; */
+        /* margin: top right bottom left; */
+      }
+
+      h1{
+        color: gray;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: blue;
       }
 
       /* p{
@@ -64,12 +71,13 @@
 
   <body>
    <img src="../Week2/Assets/Wonner.jpg" alt="winnie">
+   <h1>HEADER HERE</h1>
 
-    <form>
+    <form action="../index.html">
       <label for="fname" style="color:red">First name:</label><br>
-      <input type="text" name="fname"><br>
+      <input type="text" id="fname"><br>
       <label id="last" for="lname">Last name:</label><br>
-      <input id="lastName" type="text" name="lname"><br>
+      <input type="text" id="lname"><br>
       <input type="radio" id="coffee" name="coffee"><label for="coffee">Coffee</label>
       <input type="radio" id="tea" name="tea"><label for="tea">Tea</label>
       <input type="radio" id="water" name="water"><label for="water">Water</label><br>
@@ -84,6 +92,16 @@
       <p>Second Tester here, I'm inside the section.</p>
       <p>Third tester here, I'm inside the section.</p>
       <p id="special">Fourth tester here, I'm inside the section and special!!! :)</p>
+
+
+      <p>Second Tester here<br>
+      Second Tester here
+      Second Tester here
+      Second Tester here
+      Second Tester here
+      Second Tester here
+      </p>
+
     </section>
 
     <!-- <img src="Wonner.jpg" alt="A picture of my dog"> -->
