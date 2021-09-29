@@ -1,0 +1,64 @@
+p{
+  color: red;
+  font-family: cursive;
+}
+
+h1, h2{
+  font-family: "Bebas Neue";
+}
+
+#hero{
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+  /* overflow = anything outside of bounds, clip it off */
+}
+
+#hero img{
+  width: 100vw;
+  position: relative;
+  /* margin-bottom: 600px; */
+  bottom: 600px; /*tells the site to move the bottom of image up by 100 px */
+}
+
+#hero h1{
+  z-index: 1;
+  position: relative;
+  margin-left: 0.5em;
+  font-size: 5em;
+  top: 30vh;
+  color: white;
+}
+
+button{
+  background-color: red;
+  color: white;
+}
+
+button:hover{
+  background-color: pink;
+  color: black;
+}
+
+button:active{
+  background-color: white;
+  color: black;
+}
+
+
+/* a:link{
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+}
+
+
+a:visited{
+
+} */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 6 Webpage, JS!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+  </head>
+
+  <body>
+    <section id="hero">
+
+      <!-- you can use divs in sections, to create groups in sections -->
+
+      <h1 id="herotext">Welcome to my site!</h1>
+      <img id="image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="dude image thing">
+    </section>
+
+    <section id="one">
+      <h2>This is my first section</h2>
+      <p>Paragraph akhdfkghdfklghdfkhgirughriupgr</p>
+      <p>Paragraph ;akhdfkghdfklghdfkhgirughriupgr</p>
+    </section>
+
+    <section id="two">
+      <h2>Another heading 2!</h2>
+      <p>Paragraph akhdfkghdfklghdfkhgirughriupgr</p>
+      <p>Paragraph ;akhdfkghdfklghdfkhgirughriupgr</p>
+      <button id="mybutton">Click on me!</button>
+    </section>
+  </body>
+
+  <script type="text/javascript">
+    console.log("Hey bitch");
+    // document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
+
+    document.getElementById("mybutton").addEventListener("click", buttonClicked);
+    // NOTE: do not have buttonClicked() in above line or else it will call upon the function upon page's loading
+    function buttonClicked(){
+      alert("you pushed the second button!");
+    }
+    document.getElementById("herotext").innerHTML = "sucker";
+
+    document.getElementById("herotext").style.color = "blue";
+    document.getElementById("herotext").style.backgroundColor = "red";
+  </script>
+
+</html>
