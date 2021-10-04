@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
   </head>
 
-  <body>
+  <body class="load3">
     <section id="hero">
 
       <!-- you can use divs in sections, to create groups in sections -->
 
       <h1 id="herotext">Welcome to my site!</h1>
-      <img id="image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="dude image thing">
+      <!-- <img id="image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="dude image thing"> -->
     </section>
 
     <section id="one">
+      <!-- <img id="float" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="dude image thing"> -->
       <h2>This is my first section</h2>
-      <p>Paragraph akhdfkghdfklghdfkhgirughriupgr</p>
+      <p id="para">Paragraph akhdfkghdfklghdfkhgirughriupgr</p>
       <p>Paragraph ;akhdfkghdfklghdfkhgirughriupgr</p>
     </section>
 
@@ -26,23 +27,42 @@
       <h2>Another heading 2!</h2>
       <p>Paragraph akhdfkghdfklghdfkhgirughriupgr</p>
       <p>Paragraph ;akhdfkghdfklghdfkhgirughriupgr</p>
-      <button id="mybutton">Click on me!</button>
+      <!-- <button id="mybutton">Click on me!</button> -->
+
+      <button id="first button">Click me here!</button>
+
+
     </section>
+
+    <!-- <script type="text/javascript">
+      console.log("Hey bitch");
+      // document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
+
+      document.getElementById("mybutton").addEventListener("click", buttonClicked);
+      // NOTE: do not have buttonClicked() in above line or else it will call upon the function upon page's loading
+      function buttonClicked(){
+        alert("you pushed the second button!");
+      }
+      document.getElementById("herotext").innerHTML = "sucker";
+
+      document.getElementById("herotext").style.color = "blue";
+      document.getElementById("herotext").style.backgroundColor = "red";
+    </script> -->
+
+    <script>
+
+        document.getElementById("first button").addEventListener("click", clickMe);
+
+
+        function clickMe(){
+          alert("you clicked this button!");
+
+          document.getElementById("herotext").style.color = "blue";
+
+        }
+    </script>
+
+
   </body>
-
-  <script type="text/javascript">
-    console.log("Hey bitch");
-    // document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
-
-    document.getElementById("mybutton").addEventListener("click", buttonClicked);
-    // NOTE: do not have buttonClicked() in above line or else it will call upon the function upon page's loading
-    function buttonClicked(){
-      alert("you pushed the second button!");
-    }
-    document.getElementById("herotext").innerHTML = "sucker";
-
-    document.getElementById("herotext").style.color = "blue";
-    document.getElementById("herotext").style.backgroundColor = "red";
-  </script>
 
 </html>

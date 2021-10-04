@@ -1,0 +1,232 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C7DDFF;
+  border-color: #032A75;
+  border-style: double;
+  border-width: medium;
+
+}
+
+h1 {
+  color: #C7DDFF;
+  text-align: center;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: #0066FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: poppins;
+
+}
+
+li a:hover {
+  background-color: white;
+}
+
+body {
+  margin: 100px;
+  font-family: poppins;
+  background-color: #050505;
+  color: #032A75;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+h2 {
+  color: #0066FF;
+}
+
+h3 {
+  color: #0066FF;
+}
+
+/* ****************************************
+Jack, I added overflow: hidden; to your MountainLocation section.
+This solved the issue of the image not being contained within your section
+and sitting outside of the bounds of the section.
+**************************************** */
+
+#MountainLocation {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border: solid;
+  border-color: #032A75;
+  background-color: #C7DDFF;
+  overflow: hidden;
+}
+
+#MountainLocation h2 {
+  margin-left: 20px;
+}
+
+#MountainLocation p {
+  padding: 0px 20px 150px 20px;
+}
+
+/* ****************************************
+Jack, lines 93-98 is your original code, I just commented it out.
+The chunk of code right after it (starting at line 101) is the code I implemented.
+
+I got rid of position: relative, I didn't think it was necessary. I kept float,
+and worked with padding instead of margin. The reason I used padding
+instead of margin is because I had my image sitting where I wanted it to
+sit within the section, I just wanted to add some space between the image and
+the paragraph and the border of the section.
+
+Feel free to uncomment out lines 104 and 105 just to see what I'm talking about.
+**************************************** */
+
+/* #mtnpic {
+  float: right;
+  position: relative;
+  top: -70px;
+  width: 30vw;
+} */
+
+
+#mtnpic {
+  float: right;
+  padding: 30px 20px;
+  /* margin: 30px 20px; */
+  /* border: solid red; */
+  width: 30vw;
+}
+
+
+
+
+
+#MountainStatistics {
+  margin-top: 300px;
+  border: solid;
+  background-color: #C7DDFF;
+  border-color: #032A75;
+}
+
+#MountainStatistics h2 {
+  margin-left: 20px;
+}
+
+#MountainStatistics p {
+  margin-left: 20px;
+}
+
+/* #MountainHighlights {
+  margin-top: 200px;
+} */
+
+#coppermap {
+  float: right;
+  position: relative;
+  top: -460px;
+  margin-right: 20px;
+  width: 25vw;
+}
+
+
+
+
+
+
+#diverseterrain {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border: solid;
+  border-color: #032A75;
+  background-color: #C7DDFF;}
+
+#diverseterrain p {
+  padding: 0px 20px 150px 20px;
+  margin-right: 650px;
+}
+
+#diverseterrain h3 {
+  color: #0066FF;
+  margin-left: 20px;
+}
+
+#skierimg {
+  float: right;
+  position: relative;
+  top: -300px;
+  margin-right: 20px;
+  width: 35vw;
+
+}
+
+
+
+
+
+
+#nationallyrecgonizedpark {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border: solid;
+  border-color: #032A75;
+  background-color: #C7DDFF;
+}
+
+#nationallyrecgonizedpark h3 {
+  margin-left: 20px;
+  color: #0066FF;
+}
+
+#nationallyrecgonizedpark p {
+  margin-left: 20px;
+  margin-right: 600px;
+}
+
+#terrainpark {
+  margin-left: 500px;
+  margin-right: 20px;
+  float: right;
+  position: relative;
+  top: -250px;
+  width: 30vw;
+}
+
+
+
+
+
+
+
+#familyfriendly {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border: solid;
+  border-color: #032A75;
+  background-color: #C7DDFF;
+}
+
+#familyfriendly p {
+  padding: 0px 20px 150px 20px;
+  margin-right: 650px;
+}
+
+#familyfriendly h3 {
+  color: #0066FF;
+  margin-left: 20px;
+}
+
+#family {
+  float: right;
+  position: relative;
+  top: -360px;
+  width: 30vw;
+}
