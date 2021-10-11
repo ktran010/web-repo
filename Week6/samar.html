@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 6: Javascript 1</title>
+    <link rel= "stylesheet" href= "samar.css">
+  </head>
+  <body>
+    <h1>Choose your Destiny</h1>
+    <img alt= "cardback" src= "Assets/cardback.jpg" id= "cardback">
+
+
+
+  <section id= "buttons">
+    <button id= "clubs">Clubs</button>
+    <button id= "spades">Spades</button>
+    <button id= "hearts">Hearts</button>
+    <button id= "diamonds">Diamonds</button>
+</section>
+
+<script>
+  console.log("hi");
+document.getElementById("clubs").addEventListener("click", clubsClicked);
+
+function clubsClicked(){
+  alert("you chose the suit of clubs");
+  document.getElementById("cardback").src= "Assets/clubcard.jpg";
+  document.getElementById("diamondcard").src= "Assets/clubcard.jpg";
+  document.getElementById("heartcard").src= "Assets/clubcard.jpg";
+  document.getElementById("spadecard").src= "Assets/clubcard.jpg";
+}
+
+document.getElementById("spades").addEventListener("click", spadesClicked);
+
+function spadesClicked(){
+  alert("you chose the suit of spades");
+  document.getElementById("cardback").src= "Assets/spadecard.jpg";
+  document.getElementById("diamondcard").src= "Assets/spadecard.jpg";
+  document.getElementById("heartcard").src= "Assets/spadecard.jpg";
+  document.getElementById("clubcard").src= "Assets/spadecard.jpg";
+}
+
+
+document.getElementById("hearts").addEventListener("click", heartsClicked);
+function heartsClicked(){
+  alert("you chose the suit of hearts. What a romantic.");
+  document.getElementById("cardback").src= "Assets/heartcard.jpg";
+  document.getElementById("diamondcard").src= "Assets/heartcard.jpg";
+  document.getElementById("spadecard").src= "Assets/heartcard.jpg";
+  document.getElementById("clubscard").src= "Assets/heartcard.jpg";
+}
+
+document.getElementById("diamonds").addEventListener("click", diamondsClicked);
+function diamondsClicked(){
+  alert("you chose the suit of diamonds");
+  document.getElementById("cardback").src= "Assets/diamondcard.jpg";
+  document.getElementById("spadecard").src= "Assets/diamondcard.jpg";
+  document.getElementById("heartcard").src= "Assets/diamondcard.jpg";
+  document.getElementById("clubscard").src= "Assets/diamondcard.jpg";
+}
+  </script>
+  </body>
+</html>

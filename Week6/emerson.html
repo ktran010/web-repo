@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Week 6</title>
+  <link rel="stylesheet" href="emerson.css">
+</head>
+
+<body>
+
+<section id="intro">
+  <h1>Happy Halloween!</h1>
+</section>
+
+  <img alt="jack o lanterns" src="pumpkins.jpg" id="spooky" class="img">
+
+  <img alt="cute ghost" src="ghosty.jpg" id="scarey" class="img2">
+
+  <img alt="haunted house" src="hauntedhouse.jpg" id="ooo" class="img3">
+
+
+</section>
+
+<section>
+<section id="buttons">
+    <h2 id="two">Click one of the buttons to find out your fortune for this Halloween</h2>
+    <button id="firstbutton">Click me</button>
+    <button id="secondbutton">Noo click ME</button>
+  </section>
+
+
+
+<script>
+  console.log("javascript working");
+  document.getElementById("firstbutton").addEventListener("click", function(){alert('You will befriend a ghost weiner dog!')});
+  document.getElementById("secondbutton").addEventListener("click", buttonClicked);
+
+      function buttonClicked(){
+        alert("You will fall in love with a vampire!");
+        document.getElementById("intro").innerHTML = "BOO!!!!!";
+     }
+
+
+</script>
+
+</body>
+
+</html>

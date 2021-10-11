@@ -1,0 +1,39 @@
+#intro{
+  font-size: 50px;
+  font-family: "Garamond-serif";
+  text-color: orange;
+  text-align: left;
+  border-style: dashed;
+  border-color: #80080 ;
+}
+body{
+  background-color: darkorange;
+
+}
+img {
+  width: 25vw;
+  text-align: left;
+}
+
+form{
+  margin-left: 21px;
+  font-size: 4vw;
+
+}
+button {
+  background-color: black;
+  padding: 30px 40px;
+  font-family:"Garamond-serif";
+  border:dashed;
+  border-color: purple;
+  font-size: 4vh;
+  border-radius: 50px;
+}
+
+button:hover{
+  background-color: green;
+}
+
+button:active{
+  font-size: 3.2vh;
+}

@@ -1,0 +1,171 @@
+<!-- <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Supermega: An Introduction</title>
+  <link rel="stylesheet" href="owen.css">
+  <link rel="shortcut icon" href="0bwheabr3rl21.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <section id="topimage">
+    <img src="0bwheabr3rl21.jpeg" alt="Supermega Logo">
+  </section>
+
+  <section id="mainrect">
+    <section>
+    <h1>Supermega: An Introduction</h1>
+    <p>Supermega is a YouTube channel featuring Matt Watson and Ryan Magee.
+    The channel primarily features let's plays, a podcast, as well as live action
+    skits and vlogs. Their channel features a dry and ironic sense of humor,
+    perpetually blurring the line between being serious and not. The channel currently
+    has about 940K subscribers. Its podcast series and let's plays number in the
+    thousands.</p>
+  </section>
+
+  <section id="mainrsub">
+    <h2 id="notablequotes"><em>Notable Quotes:</em></h2>
+  </section>
+  <section>
+    <p>Watch Supermega if you have an extremely ironic sense of humor - trust me,
+    they really do skate the line often, and it's simulatenously funny, confusing,
+    and delightfully annoying.</p>
+  </section>
+</section>
+
+  <section id="mainrect2">
+    <h2>Best Videos:</h2>
+    <ul>
+      <li><p id="ptitle">Sonic Adventure 2 Ep. 4 - Magee Giggles</p><video id="pocollo" autoplay muted src="smsonicletsplay.mp4"></video></li>
+      <li><p id="ptitle2">Animal Crossing New Horizons Ep. 27 - Sprite Cranberry</p><video id="acnh" autoplay muted src="smacnhletsplay.mp4"></video></li>
+      <li><p id="ptitle3">Battle for Bikini Bottom Ep. 22 - Mermalair</p><video id="bfbb" autoplay muted src="smbbfbletsplay.mp4"></video></li>
+    </ul>
+  </section>
+
+  <script>
+    const quotes = ["Sprite cranberry?...Dude, that's the hottest meme of 2021.",
+    "If middle schoolers ran a country they would absolutely run a fascist dictatorship.",
+    "Kids, get as much debt on your record as possible, while you're still young.",
+    "How much fun would it be to bring a chimp bowling?",
+    "Sorry to say it, but getting crucified is major bottom energy."];
+    let quotecount = 0;
+
+    document.getElementById("notablequotes").addEventListener("click",changeQuote);
+    document.getElementById("pocollo").addEventListener("mouseover",buttonHover1);
+    document.getElementById("acnh").addEventListener("mouseover",buttonHover2);
+    document.getElementById("bfbb").addEventListener("mouseover",buttonHover3);
+
+    function changeQuote() {
+        console.log(quotes[quotecount]);
+        document.getElementById("notablequotes").innerHTML = quotes[quotecount];
+        if (quotecount>=quotes.length-1)
+        {
+          quotecount=0;
+        }
+        else
+        {
+          quotecount++;
+        }
+      }
+
+    function buttonHover1() {
+        document.getElementById("ptitle").style.color = "red";
+        document.getElementById("ptitle").style.fontSize = "larger";
+        }
+    function buttonHover2() {
+        document.getElementById("ptitle2").style.color = "red";
+        document.getElementById("ptitle2").style.fontSize = "larger";
+        }
+    function buttonHover3() {
+        document.getElementById("ptitle3").style.color = "red";
+        document.getElementById("ptitle3").style.fontSize = "larger";
+        }
+
+  </script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Supermega: An Introduction</title>
+  <link rel="stylesheet" href="owen_original.css">
+  <link rel="shortcut icon" href="0bwheabr3rl21.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <section id="topimage">
+    <img src="0bwheabr3rl21.jpeg" alt="Supermega Logo">
+  </section>
+  <section id="mainrect">
+    <h1>Supermega: An Introduction</h1>
+    <p>Supermega is a YouTube channel featuring Matt Watson and Ryan Magee.
+    The channel primarily features let's plays, a podcast, as well as live action
+    skits and vlogs. Their channel features a dry and ironic sense of humor,
+    perpetually blurring the line between being serious and not. The channel currently
+    has about 940K subscribers. Its podcast series and let's plays number in the
+    thousands.</p>
+  <section id="mainrsub">
+    <h2 id="notablequotes"><em>Notable Quotes:</em></h2>
+    <!-- <button id="mainquotebox">Click for a famous Supermega quote!</button> -->
+  </section>
+    <p>Watch Supermega if you have an extremely ironic sense of humor - trust me,
+    they really do skate the line often, and it's simulatenously funny, confusing,
+    and delightfully annoying.</p>
+  </section>
+  <section id="mainrect2">
+    <h2>Best Videos:</h2>
+    <ul>
+      <li><p id="ptitle">Sonic Adventure 2 Ep. 4 - Magee Giggles</p><video id="pocollo" autoplay muted src="smsonicletsplay.mp4"></video></li>
+      <li><p id="ptitle2">Animal Crossing New Horizons Ep. 27 - Sprite Cranberry</p><video id="acnh" autoplay muted src="smacnhletsplay.mp4"></video></li>
+      <li><p id="ptitle3">Battle for Bikini Bottom Ep. 22 - Mermalair</p><video id="bfbb" autoplay muted src="smbbfbletsplay.mp4"></video></li>
+    </ul>
+  </section>
+  <script>
+    const quotes = ["Sprite cranberry?...Dude, that's the hottest meme of 2021.",
+    "If middle schoolers ran a country they would absolutely run a fascist dictatorship.",
+    "Kids, get as much debt on your record as possible, while you're still young.",
+    "How much fun would it be to bring a chimp bowling?",
+    "Sorry to say it, but getting crucified is major bottom energy."];
+    let quotecount = 0;
+
+    document.getElementById("notablequotes").addEventListener("click",changeQuote);
+    document.getElementById("pocollo").addEventListener("mouseover",buttonHover1);
+    document.getElementById("acnh").addEventListener("mouseover",buttonHover2);
+    document.getElementById("bfbb").addEventListener("mouseover",buttonHover3);
+
+    function changeQuote() {
+        console.log(quotes[quotecount]);
+        document.getElementById("notablequotes").innerHTML = quotes[quotecount];
+        if (quotecount>=quotes.length-1){
+          quotecount=0;
+        }else{
+          quotecount++;
+        }
+      }
+
+    function buttonHover1() {
+        document.getElementById("ptitle").style.color = "red";
+        document.getElementById("ptitle").style.fontSize = "larger";
+        }
+    function buttonHover2() {
+        document.getElementById("ptitle2").style.color = "red";
+        document.getElementById("ptitle2").style.fontSize = "larger";
+        }
+    function buttonHover3() {
+        document.getElementById("ptitle3").style.color = "red";
+        document.getElementById("ptitle3").style.fontSize = "larger";
+        }
+
+  </script>
+
+</body>
+</html>

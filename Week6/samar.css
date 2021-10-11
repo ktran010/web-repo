@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+}
+
+
+#buttons button{
+  background-color: orange;
+  font-family: cursive;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 7vw;
+  padding: 9px 15px;
+}
+
+/* button{
+  background-color: orange;
+  font-family: cursive;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 7vw;
+  padding: 9px 15px;
+} */
+
+h1{
+  text-align: center;
+  font-family: "MK4";
+}
+
+img{
+  overflow: hidden;
+  margin: 0 0 0 40vw;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+button:active{ /*active is when you click on it*/
+  background-color:blue;
+}
+
+#button button:hover{
+  border: solid black 3px;
+}
+
+#button button:active{ /*active is when you click on it*/
+  background-color:blue;
+}
