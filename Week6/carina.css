@@ -1,0 +1,110 @@
+
+  h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: Barlow;
+    font-weight: 600px;
+  }
+
+  h3{
+    font-family: lato;
+    color: #216a61;
+
+  }
+  ul{
+    font-family: lato;
+    color: #191010;
+  }
+
+  img {
+    width: 90vw;
+    height: 45vh;
+    margin: 10px;
+    object-fit: cover;
+    object-position: 0% 100%;
+  }
+  form{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  #top h1{
+    color: rgb(33, 106, 97);;
+    border: solid 5px rgb(241,175,103);
+    border-radius: 10px;
+    background-color: rgb(205, 223, 211);
+    padding: 10px;
+    margin: 0px;
+  }
+
+  #whole{
+    background-color: #cddfd3;
+    padding: 20px;
+    margin: 30px;
+  }
+
+  #best{
+    background-color: #fff);
+    border: solid rgb(33, 106, 97) 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .button {
+    transition-duration: 0.4s;
+    background-color: #cddfd3;
+    color: #216a61;
+    border: 2px solid #216a61;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #216a61; /* Green */
+    color: #CDDFD3;
+  }
+
+
+  /*NEW!!*/
+  #best{
+    background-color: #fff;
+    font-family: "lato";
+    font-size: 10px;
+    margin: 10px;
+    padding: 7px 20px;
+    text-align: center;
+  }
+  button{
+    background-color: #cddfd3;
+    font-family: "lato";
+    font-size: 15px;
+    margin: 10px;
+    padding: 7px 20px;
+  }
+
+  button:active{
+    background-color: #efe3df;
+    color: #216a61;
+  }
+  button:hover{
+    border:solid #216a61 2px;
+  }
+
+  a:link{
+    color: blue
+  }
+
+  a:visited{
+    color:pink;
+  }
+
+  a:active{
+    color: red;
+  }
