@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Kitten Catcher
+        </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link href="kittenStyle.css" rel="stylesheet" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <script src="kittenScript.js"></script>
+    </head>
+
+    <body>
+        <div id="container2" class="container2"> <!--fades in, appears after last kitten caught-->
+            <div id="resultOuterBorder" class="fullwidth">
+                <div id="resultInnerBorder" class="fullwidth">
+                    <h4>
+                        Amazing job!! Your result:
+                    </h4>
+                    <br>
+                    <p id="result">
+                        Sample Text
+                    </p>
+                    <br><br>
+                    <input type="button" value="PLAY AGAIN" onClick="replay()"><br> <!--takes to beginning page-->
+                </div>
+            </div>
+        </div>
+
+        <img id="cat_1a" src="img/cat1.gif" alt="gif of a kitten" onClick="catOneA()">
+        <img id="cat_1b" src="img/cat1.gif" alt="gif of a kitten" onClick="catOneB()">
+        <img id="cat_2a" src="img/cat2.gif" alt="gif of a kitten" onClick="catTwoA()">
+        <img id="cat_2b" src="img/cat2.gif" alt="gif of a kitten" onClick="catTwoB()">
+        <img id="cat_3a" src="img/cat3.gif" alt="gif of a kitten" onClick="catThreeA()">
+        <img id="cat_3b" src="img/cat3.gif" alt="gif of a kitten" onClick="catThreeB()">
+        <img id="cat_4a" src="img/cat4.gif" alt="gif of a kitten" onClick="catFourA()">
+        <img id="cat_4b" src="img/cat4.gif" alt="gif of a kitten" onClick="catFourB()">
+        <img id="cat_5a" src="img/cat5.gif" alt="gif of a kitten" onClick="catFiveA()">
+        <img id="cat_5b" src="img/cat5.gif" alt="gif of a kitten" onClick="catFiveB()">
+
+    </body>
+</html>
