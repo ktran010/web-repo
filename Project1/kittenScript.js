@@ -8,7 +8,7 @@ var timeStart = performance.now(); // start counter of time
 
 
 // function that switches to the game page
-function start() 
+function start()
 {
 	location.href = "kittenCatcherRun.html";
 }
@@ -18,7 +18,7 @@ function start()
 // this function takes the user to the beginning page to restart the game
 function replay()
 {
-    location.href = "kittenCatcher.html";
+    location.href = "index.html";
 }
 
 
