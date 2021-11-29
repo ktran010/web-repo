@@ -17,15 +17,6 @@ for(i=0; i<document.getElementsByClassName("meal").length; i++){
 document.getElementById('lunch').classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src= 'assets/" + images[0] + "' >";
 
-
-document.getElementById("sctext").innerHTML = "<ul><li>one</li></ul>";
-
-<ul>
-<li>Hi</li>
-<li>Hi</li>
-<li>Hi</li>
-</ul>
-
 function setActive(e){
 
 

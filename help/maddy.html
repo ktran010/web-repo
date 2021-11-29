@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://kit.fontawesome.com/17596c29da.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Self Care Menu</title>
+    <link rel="stylesheet" href="maddy.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Decoy">
+  </head>
+  <body>
+      <h1>My Week</h1>
+      <section class="buttons">
+      <button id="mon" class="days">MON</button>
+      <button id="tue" class="days">TUE</button>
+      <button id="wed" class="days">WED</button>
+      <button id="thu" class="days">THU</button>
+      <button id="fri" class="days">FRI</button>
+      <button id="sat" class="days">SAT</button>
+      <button id="sun" class="days">SUN</button>
+      </section>
+      <section id="grid">
+      <section id="selfcare" class="border">
+        <h3>Self Care</h3>
+        <div id="sctext">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section id="day" class="border">
+        <h3 id="dtext">Day</h3>
+      </section>
+      <section id="reminder" class="border">
+        <h3>Reminders</h3>
+        <div id="rtext">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section id="quote" class="border">
+        <button id="qbutton">new</button>
+        <h4 id="qtext">Click for motivation!</h4>
+      </section>
+      </section>
+
+      <script>
+        const quotes = ["Live, Laugh, Love -Kim Jong Un", "Things will work out", "Always remember you are unique","You're a bad bitch","Enjoy the moment!"];
+        quoteCount = 0;
+        document.getElementById('qbutton').addEventListener("click", newQuote);
+        function newQuote()
+        {
+          document.getElementById("qtext").innerHTML = quotes[quoteCount];
+          if(quoteCount>=(quotes.length-1))
+          {
+            quoteCount = 0;
+          }
+          else{
+            quoteCount +=1;
+          }
+        }
+
+        console.log("javascript working");
+        document.getElementById("mon").addEventListener("click", monClicked);
+        document.getElementById("tue").addEventListener("click", tueClicked);
+        document.getElementById("wed").addEventListener("click", wedClicked);
+        document.getElementById("thu").addEventListener("click", thuClicked);
+        document.getElementById("fri").addEventListener("click", friClicked);
+        document.getElementById("sat").addEventListener("click", satClicked);
+        document.getElementById("sun").addEventListener("click", sunClicked);
+
+        function monClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Exercise for 30 minutes</li>" + "<li>Skin care routine</li>" + "<li>Listen to a podcast</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Monday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Drink water</li>" + "<li>Smile a little extra</li>" + "<li>Pay it forward</li>" + "</ul>";
+        }
+        function tueClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Grocery shopping</li>" + "<li>Hair care routine</li>" + "<li>Play with Onion the cat</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Tuesday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Eat healthy</li>" + "<li>Give Onion some love</li>" + "<li>Take vitamins</li>" + "</ul>";
+        }
+        function wedClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Dance class</li>" + "<li>Bake something yummy</li>" + "<li>Stretch for 20 minutes</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Wednesday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Drink Emergen-C</li>" + "<li>Take immune gummies</li>" + "<li>Make someone smile</li>" + "</ul>";
+        }
+        function thuClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Make a smoothie</li>" + "<li>Take a long bath</li>" + "<li>Go out to eat</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Thursday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Call an old friend</li>" + "<li>Take time for yourself</li>" + "<li>Drink water</li>" + "</ul>";
+        }
+        function friClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Go on a hike</li>" + "<li>Lunch with friends</li>" + "<li>Cycling class</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Friday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Have fun today</li>" + "<li>Dance like nobody is watching</li>" + "<li>Be extra kind to others</li>" + "</ul>";
+        }
+        function satClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Have fun with friends</li>" + "<li>Watch TV for 1 hour</li>" + "<li>Take a nap</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Saturday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Make someone's day</li>" + "<li>Make sure to rest</li>" + "<li>Enjoy yourself</li>" + "</ul>";
+        }
+        function sunClicked(){
+          document.getElementById("sctext").innerHTML = "<ul>" + "<li>Clean apartment</li>" + "<li>Plan weekly meals</li>" + "<li>Create grocery list</li>" + "</ul>";
+          document.getElementById("dtext").innerHTML = "Sunday";
+          document.getElementById("rtext").innerHTML = "<ul>" + "<li>Drink lots of vitamin C</li>" + "<li>Take it easy</li>" + "<li>Watch some mindless TV</li>" + "</ul>";
+        }
+        </script>
+  </body>
+</html>

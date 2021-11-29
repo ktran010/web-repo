@@ -1,0 +1,123 @@
+h1{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 100px;
+  color: white;
+  text-shadow: 5px 2px #ff5d8f;
+  margin: 20px;
+  text-align: center;
+}
+h2{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 65px;
+  margin: 10px;
+}
+h3{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 50px;
+  margin: 10px;
+}
+h4{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 35px;
+  margin: 10px;
+}
+h5{
+font-family: "Roboto";
+font-size: 35px;
+color: #ff5d8f;
+margin: 10px;
+}
+h6{
+font-family: "Roboto";
+font-size: 30px;
+color: #ff5d8f;
+margin: 10px;
+}
+p{
+font-family: "Roboto";
+font-size: 24px;
+color: #ff5d8f;
+margin: 0;
+}
+ul{
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #ff5d8f;
+  margin: 0;
+}
+li{
+  margin-top: 20px;
+}
+body{
+ background-color: #ffccd5;
+}
+.border{
+  background-color: #eaeaea;
+  border: solid 2px #ff5d8f;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+}
+button{
+  background-color: #ff5d8f;
+  font-family: "Roboto";
+  border-radius: 10px;
+  border: solid white 2px;
+  font-size: 24px;
+  padding: 7px 15px;
+}
+button:active{
+  background-color: #eaeaea;
+  color: #ff5d8f;
+}
+button:hover{
+  border: solid white 4px;
+}
+.buttons{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
+.days{
+  flex-grow: 1;
+  margin-left: 10px;
+}
+#qbutton{
+  float: right;
+  margin-top: 10px;
+}
+#grid{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(12, 8.33%);
+  grid-template-rows: repeat(12, 8.33%);
+
+}
+
+/* this is a 12 x 12 grid
+
+grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
+
+#selfcare{ /*self care*/
+    grid-area: 1 / 1 / span 10 / span 6;
+}
+
+#day{ /*day*/
+    grid-area: 1 / 7 / span 3 / span 12;
+    text-align: center;
+    /* padding-top: 75px; */
+   }
+
+#reminder{ /*reminder*/
+    grid-area: 4 / 7 / span 7 / span 12;
+}
+
+#quote{ /*quote*/
+    grid-area: 11 / 1 / span 11 / span 12;
+ }

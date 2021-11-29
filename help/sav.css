@@ -1,0 +1,173 @@
+body{
+  background-color: #CBF3F0;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+
+
+}
+
+h1{
+  text-align: center;
+  color: #FF8587;
+  font-size: 50px;
+}
+
+button{
+  border: 2px solid #FF8587;
+  display: flex;
+  margin: 5vh 5vw 0 5vw;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+button:hover{
+  background-color: #DDDDDD;
+}
+
+button:active{
+  background-color: #D0D0D0;
+}
+
+.menu{
+  width: 400px;
+  padding: 150px;
+  border: 2px solid #FF8587;
+  position: relative;
+  left:250px;
+  top:-590px;
+  border-radius:3px;
+  background-color: #ffffff;
+  height: 200px;
+}
+
+
+
+
+/*#todo{
+  display: flex;
+}*/
+
+#tues, #wed, #thurs, #fri, #sat, #sun{
+  display: none;
+}
+
+
+
+.title{
+  top: -150px;
+  color: #FF8587;
+  text-align: center;
+  font-size: 30px;
+  position:relative
+}
+
+h4{
+  color: #FF8587;
+  text-align: left;
+  font-size: 15px;
+  position:relative;
+  bottom: 150px;
+  width: 200px;
+  left: -110px;
+}
+
+#quotesection{
+  background-color: #ffffff;
+  width:900px;
+  height: 20px;
+  padding:100px;
+  border: 2px solid#ff8587;
+  left: 250px;
+  top:-850px;
+  border-radius: 3px;
+  position: relative;
+
+
+
+/*  border: 4px;
+  border-color: #ee9b00;*/
+}
+
+#qtext{
+  position:relative;
+  font-size: 20px;
+  top:-100px;
+  text-align: center;
+  color: #FF8587;
+}
+
+
+#newquote{
+  width: 150px;
+  border: 2px solid#ff8587;
+  top:-75px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position:relative;
+  left: 200px;
+}
+
+
+
+.active{
+  background-color: pink;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container*/
+.slideshow-container {
+  max-width: 40vh;
+  position: relative;
+  left:700px;
+  top: -890px;
+}
+
+img{
+  width: 30vw;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right:0;
+  left:415px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}

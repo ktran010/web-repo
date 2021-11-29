@@ -1,0 +1,54 @@
+body{
+  background-color: #CBF3F0;
+  /*font-family: "Francois One";*/
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+
+
+}
+
+h1{
+  text-align: center;
+  color: #FF8587;
+  font-size: 50px;
+}
+
+#tabs{
+  display: flex;
+  margin: 20vh 10vw 0 10vw;
+}
+
+#items{
+  display:flex;
+  margin: 0vh 10vw 0 10vw;
+  padding-top: 150px;
+}
+
+.days{
+  flex-grow: 1;
+  background-color: aquamarine;
+  height: 100px;
+  width:auto;
+  border: 1px solid black;
+}
+
+.menu{
+  flex-grow:1;
+  width:auto;
+
+  background-color: pink;
+  border: 1px solid black;
+}
+
+h2{
+  margin-top: 35px;
+  padding-bottom:0;
+  font-size: 1.8em;
+}
+
+#tues, #wed, #thurs, #fri, #sat, #sun{
+  display:none;
+}
+
+.active{
+  background-color: pink;
+}
